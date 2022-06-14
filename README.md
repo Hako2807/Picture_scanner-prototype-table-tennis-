@@ -8,7 +8,7 @@ This project is a test where I am going to scan pictures and read data from them
 3. Predict where the ball is going to go to
 
 
-Hpw to contribute:
+How to contribute:
 IDK
 
 How to get starting with the problem
