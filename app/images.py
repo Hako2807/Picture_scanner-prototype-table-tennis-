@@ -5,6 +5,7 @@ from PIL import Image
 class Images:
     def __init__(self):
         self.imgs = []
+        self.imgnames = []
         self.rgbas = []
 
     def scan_directory(self):
@@ -12,6 +13,7 @@ class Images:
             for entry in entries:
                 if entry.name.endswith(".png"):
                     img = Image.open("pictures/" + entry.name)
+                    self.imgnames.append(entry.name)
                     self.imgs.append(img)
 
     def scan_image(self):
