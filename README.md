@@ -1,6 +1,6 @@
 # Picture_scanner-prototype-table-tennis-
 
-#Scan pictures and detect TT points
+# Scan pictures and detect TT points
 
 This project is a test where I am going to scan pictures and read data from them. The goal is to be able to:
 1. Detect a ball, and the table and the rackets.
